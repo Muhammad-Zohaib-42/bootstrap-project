@@ -1,0 +1,20 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .header-actions-wrapper {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .header-actions-wrapper > button {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}
