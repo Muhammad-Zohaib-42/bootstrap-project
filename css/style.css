@@ -1,0 +1,79 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+header .container .row div {
+    height: 80px;
+}
+
+.hero-section {
+    padding: 120px 0 100px;
+}
+
+.hero-section .container .hero-content-container .title {
+    font-size: 52px;
+    line-height: 68px;
+    font-weight: 700;
+}
+
+.hero-section .container .hero-content-container .description {
+    font-size: 22px;
+    line-height: 35px;
+    color: #0A2134;
+}
+
+.hero-section .container ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 22px;
+}
+
+.hero-section .container .hero-actions-wrapper button {
+    width: 50%;
+    padding: 16px 28px;
+}
+
+.hero-section .container .hero-actions-wrapper .download-btn {
+    border-color: #D0D5DD;
+    color: #0A2134;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.hero-section .container .hero-form-container {
+    padding: 40px;
+}
+
+.hero-section .container .hero-form-container .title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-section .container .hero-form-container .description {
+    font-size: 12px;
+    color: #43505B;
+}
+
+.hero-section .container .hero-form-container button {
+    padding-block: 10px;
+}
+
+.hero-section .container .cards-wrapper {
+    margin: 100px 0 0;
+    padding: 30px;
+}
+
+.hero-section .container .cards-wrapper h3 {
+    font-size: 30px;
+    color: #2699FB;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.hero-section .container .cards-wrapper p {
+    font-size: 16px;
+    color: #43505B;
+    margin-bottom: 0;
+}

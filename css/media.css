@@ -1,0 +1,79 @@
+@media (max-width: 991px) {
+    header {
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    header .container .row img {
+        width: 130px;
+    }
+
+    header .container .row .header-actions-wrapper {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center !important;
+        border-top: 1px solid #dee2e6;
+    }
+
+    header .container .row .header-actions-wrapper button {
+        font-size: 14px;
+    }
+
+    header .container .header-logo-container {
+        justify-content: center;
+    }
+
+    .hero-section {
+        padding: 110px 0 100px;
+    }
+
+    .hero-section .container .hero-content-container .title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .hero-section .container .hero-content-container .description {
+        font-size: 16px;
+        line-height: 27px;
+        margin: 10px 0 18px;
+    }
+
+    .hero-section .container ul {
+        font-size: 16px;
+    }
+
+    .hero-section .container .hero-actions-wrapper {
+        margin-top: 30px;
+    }
+
+    .hero-section .container .hero-actions-wrapper button {
+        width: 100%;
+        padding: 12px 10px;
+        font-size: 14px;
+    }
+
+    .hero-section .container .hero-form-container {
+        padding: 20px;
+    }
+
+    .hero-section .container .cards-wrapper {
+        margin-top: 50px;
+        padding: 20px 20px 40px;
+        box-shadow: none !important;
+    }
+
+    .hero-section .container .cards-wrapper div:not(:nth-child(5)) {
+        margin-bottom: 40px;
+    }
+
+    .hero-section .container .cards-wrapper div p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section .container .cards-wrapper div {
+        text-align: center;
+    }
+}
