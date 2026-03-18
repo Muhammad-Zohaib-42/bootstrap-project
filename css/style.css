@@ -49,24 +49,6 @@
     color: black;
 }
 
-.cards-wrapper {
-    box-shadow: 0 4px 80px -2px #002F5814;
-    border-radius: 8px;
-}
-
-.cards-wrapper h2 {
-    font-size: 30px;
-    color: #2699FB;
-    margin-bottom: 0;
-}
-
-.cards-wrapper p {
-    font-size: 16px;
-    color: #43505B;
-    line-height: 24px;
-    margin-bottom: 0;
-}
-
 .hero-form {
     padding: 40px;
     border-radius: 10px;
@@ -87,4 +69,39 @@
     &:hover {
         background-image: linear-gradient(to right, #2699FB, #0ACEFE);
     }
+}
+
+.counter-section h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+.counter-section p {
+    margin-bottom: 0;
+}
+
+.highlights-section {
+    background-color: #F7FAFF;
+}
+
+.highlights-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A2134;
+}
+
+.highlights-section p {
+    font-size: 18px;
+    color: #0A2134;
+}
+
+.highlight-card h4 {
+    font-size: 20px;
+    color: #0A2134;
+}
+
+.highlight-card p {
+    font-size: 15px;
+    margin-bottom: 0;
 }

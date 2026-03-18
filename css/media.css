@@ -44,4 +44,12 @@
     .hero-form {
         padding: 20px;
     }
+
+    .counter-section p {
+        margin-bottom: 16px;
+    }
+
+    .highlights-section h2 {
+        font-size: 28px;
+    }
 }

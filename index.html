@@ -11,6 +11,25 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
+<!-- en Modal -->
+<div class="modal fade" id="enModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <header class="container-fluid shadow-lg py-2 position-sticky top-0 z-3 bg-white">
         <div class="container">
             <div class="row align-items-center">
@@ -41,7 +60,7 @@
                         </ul>
                         <div class="hero-actions-wrapper d-flex gap-3 mt-5">
                             <button class="btn btn-primary demo-btn">Book 2 Days Demo</button>
-                            <button class="btn btn-outline-light download-btn"><i class="fa-solid fa-download"></i> Download Curriculum</button>
+                            <button data-bs-toggle="modal" data-bs-target="#enModal" class="btn btn-outline-light download-btn"><i class="fa-solid fa-download"></i> Download Curriculum</button>
                         </div>
                     </div>
                 </div>
@@ -68,8 +87,10 @@
                     </form>
                 </div>
             </div>
+        </div>
 
-            <!-- <div class="row px-3 py-4 mt-5 cards-wrapper">
+        <div class="container mt-5 counter-section">
+            <div class="row p-4 shadow-lg rounded">
                 <div class="col">
                     <h2>1000+</h2>
                     <p>Students Trained</p>
@@ -90,7 +111,70 @@
                     <h2>1000+</h2>
                     <p>Students Trained</p>
                 </div>
-            </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid py-5 highlights-section">
+        <div class="container">
+            <h2>Key Highlights of the Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            <div class="row mt-5 gy-3">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex align-items-center gap-3 highlight-card">
+                        <img src="images/Group 4488.png" alt="">
+                        <div>
+                            <h4>Assignments & Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex align-items-center gap-3 highlight-card">
+                        <img src="images/Frame 353.png" alt="">
+                        <div>
+                            <h4>Assignments & Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex align-items-center gap-3 highlight-card">
+                        <img src="images/Frame 354.png" alt="">
+                        <div>
+                            <h4>Assignments & Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex align-items-center gap-3 highlight-card">
+                        <img src="images/Group 4488.png" alt="">
+                        <div>
+                            <h4>Assignments & Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex align-items-center gap-3 highlight-card">
+                        <img src="images/Group 4488.png" alt="">
+                        <div>
+                            <h4>Assignments & Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex align-items-center gap-3 highlight-card">
+                        <img src="images/Group 4488.png" alt="">
+                        <div>
+                            <h4>Assignments & Modules tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
