@@ -11,10 +11,37 @@
         left: 0;
         width: 100%;
         justify-content: center !important;
+        background-color: white;
+        box-shadow: 0 -1rem 3rem rgba(0, 0, 0, 0.175);
     }
 
-    .header-actions-wrapper > button {
+    .header-actions-wrapper > button,
+    .hero-actions-wrapper > button {
         padding: 7px 15px;
         font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .hero-content p, 
+    .hero-content li {
+        font-size: 16px;
+    }
+
+    .hero-actions-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-actions-wrapper button {
+        width: 100%;
+        padding-block: 10px;
+    }
+
+    .hero-form {
+        padding: 20px;
     }
 }
