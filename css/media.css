@@ -1,3 +1,10 @@
+@media (max-width: 1399px) {
+    .career-section .row > div > div {
+        padding-left: 18px;
+        padding-right: 14px;
+    }
+}
+
 @media (max-width: 991px) {
     header {
         border-bottom: 1px solid #dee2e6;
@@ -25,7 +32,7 @@
     }
 
     .hero-section {
-        padding: 110px 0 100px;
+        padding: 110px 0 40px;
     }
 
     .hero-section .container .hero-content-container .title {
@@ -39,7 +46,8 @@
         margin: 10px 0 18px;
     }
 
-    .hero-section .container ul {
+    .hero-section .container ul,
+    .curriculum-section .container ul {
         font-size: 16px;
     }
 
@@ -68,6 +76,27 @@
     }
 
     .hero-section .container .cards-wrapper div p {
+        font-size: 14px;
+    }
+
+    .highlights-section .title {
+        font-size: 28px;
+    }
+
+    .highlights-section .description {
+        font-size: 16px;
+    }
+
+    .highlights-section .row img {
+        height: 80px;
+    }
+
+    .highlights-section .row .title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .highlights-section .row .description {
         font-size: 14px;
     }
 }
